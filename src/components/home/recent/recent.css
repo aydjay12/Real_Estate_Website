@@ -1,0 +1,35 @@
+.recent .text {
+  padding: 30px;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 20px;
+  color: #bec7d8;
+}
+.recent p {
+  color: #72809d;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+.recent .button button {
+  font-family: "Kumbh Sans";
+  transition: 0.5s;
+}
+.recent .button button:hover {
+  background: white;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+@media screen and (max-width: 500px) {
+  .grid3 {
+    grid-template-columns: 1fr;
+  }
+}
