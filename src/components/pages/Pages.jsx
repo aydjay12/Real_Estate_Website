@@ -42,7 +42,7 @@ const Pages = () => {
   }, []);
   return (
     <>
-      <Router basename="/RentUp">
+      <Router basename="/Real_Estate_Website">
         <Header />
         <Routes>
           <Route path="/" element={<Home></Home>} />
