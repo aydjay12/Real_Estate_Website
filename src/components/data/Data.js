@@ -164,7 +164,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Jersy, United State",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
