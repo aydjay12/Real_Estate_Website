@@ -2,11 +2,16 @@ import React from "react";
 import Back from "../common/Back";
 import Heading from "../common/Heading";
 import img from "../images/about.jpg";
+import { motion } from "framer-motion";
 import "./about.css";
 
 const About = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0, x: -1000 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -1000 }}
+    >
       <section className="about">
         <Back name="About Us" title="About Us - Who We Are?" cover={img} />
         <div className="container flex mtop">
@@ -35,7 +40,7 @@ const About = () => {
           </div>
         </div>
       </section>
-    </>
+    </motion.div>
   );
 };
 
